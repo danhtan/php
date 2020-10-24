@@ -1,0 +1,74 @@
+#form{
+    border-style: groove ;
+    padding: 20px;
+    width: 250px;
+    position:absolute;
+    top: 40%;
+    left: 40%;  
+}
+#login{
+    float: right;
+    margin-right: 12%;
+}
+ #danhsachmonhoc div:hover{
+   background: lightblue;
+   cursor: pointer; 
+}
+#danhsach:hover{
+    background: lightblue;
+    cursor: pointer;
+}
+.noidung{
+    display: none;
+    text-align: center;
+    /* background: #c2d6d6; */
+}
+.noidung, #diem{
+    margin-top: 24px;
+    /* padding-top:30px; */
+    /* background: #e6fff7; */
+}
+.thongtin{
+    position: fixed;
+    right: 1%;
+    top: 2%;
+    /* color: red; */
+}
+
+body h3{
+    color: blue;
+}
+#diem{
+    text-align: center;
+}
+.viengiua{
+    border: 1px solid blue;
+    height: 100%;
+    position: fixed;
+    left: 25%
+}
+table th{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+table {
+    margin-top:30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  } 
+  td, th {
+    /* border: 1px solid black; */
+    text-align: left;
+    padding: 8px;
+  }  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {background-color: #ddd;}
+  th{
+      background: #00cc00;
+      color: white;
+  }

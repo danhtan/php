@@ -1,0 +1,31 @@
+
+.viengiua{
+    border: 1px solid blue;
+    height: 100%;
+    position: fixed;
+    left: 75%
+}
+xmp{
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    white-space: pre-wrap ;
+    display: inline;
+}
+.thongtinthi{
+    position: fixed;
+
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+body{
+    background: #e6fff7;
+    /* background-image: url("../img/hinh-nen.jpg"); */
+    color: #000;
+}
+#dongho{
+    color: red;
+}
+.cauhoi{
+    display: none;
+}
