@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var kiemtra = true;
+    var kiemtra = false;
     $.ajax({
         type: "GET",
         url: "php/danhsachmon.php",
@@ -63,7 +63,7 @@ $(document).ready(function () {
         }
     });
     $('#btnbatdau').click(function () {
-        if (kiemtra == true) {
+        if (kiemtra == false) {
             window.location.href = "thi.html";
             $.ajax({
                 type: "GET",
