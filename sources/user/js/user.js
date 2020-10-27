@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var kiemtra = false;
+    var kiemtra = true;
     $.ajax({
         type: "GET",
         url: "php/danhsachmon.php",
