@@ -63,7 +63,7 @@ $(document).ready(function () {
         }
     });
     $('#btnbatdau').click(function () {
-        if (kiemtra == true) {
+        
             window.location.href = "thi.html";
             $.ajax({
                 type: "GET",
@@ -73,10 +73,10 @@ $(document).ready(function () {
                 success: function (response) {
                 }
             });
-        }
-        else {
-            alert('Chưa đến thời gian thi');
-        }
+        
+        
+            //alert('Chưa đến thời gian thi');
+        
     })
     //lay danh sach diem
     $('#danhsach').click(function () {
