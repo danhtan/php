@@ -63,7 +63,7 @@ $(document).ready(function () {
         }
     });
     $('#btnbatdau').click(function () {
-        if (kiemtra == false) {
+        if (kiemtra == true) {
             window.location.href = "thi.html";
             $.ajax({
                 type: "GET",
